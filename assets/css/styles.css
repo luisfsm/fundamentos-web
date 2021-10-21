@@ -1,109 +1,80 @@
-<<<<<<< HEAD
-ul {
-    background-color: #333333;
-    list-style-type: none;
-    overflow: hidden;
-}
-li{
-    float: left;
-    color: white;
-}
-
-li a {
-    display: block;
-    color: aliceblue;
-    text-align: center;
-    padding: 25px;
-    text-decoration: none;
-}
-
-a{
-    text-decoration: none;
-}
-a:hover{
-    background-color: #111111;
-}
-nav{
-    background-color: #111111;
-}
-body h1{
-    text-align: center;
-}
-
-footer{
-    background-color: #333333;
-}
-
-footer p {
-    text-align: center;
-    padding: 30px;
-    color: aliceblue;
-}
-
-footer p:hover{
-    background-color: #333333;
-}
-.recurso {
-    width: 560px;
-    height: 315px;
-}
-
 .container{
-    display: inline-block;
-}
-
-.column{
-    width: calc(100% / 2);
-    height: 100px;
-    display: inline-block;
-  }
-
-  input{
-      border-radius: 3%;
-      border: 1;
-  }
-
-  div button{
-      text-align: center;
-  }
-  button{
-      padding: 10px;
-      border: none;
-      background-color: #111111;
-      color: aliceblue;
-      border-radius: 3px ;
-  }
-
-  button:hover{
-      background-color:#333333;
-  }
-=======
-.item{
-    margin: 5px;
-    padding: 5px;
-    background: #447;
-    text-align: center;
-    font-size: 1em;
-    color: white;
-    
-}
-
-.container{
-    max-width: 500px;
-    margin: 0 auto;
-    border: 1px solid #000;   
-    
-    flex-direction: column-reverse; 
-}
-
-.flexivel{
     display: flex;
+    flex-flow: row;
+    justify-content: center;   
+    align-items: center;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: #000;
-
+#menu{
+    background-color:#2a75bb;
+    display: flex;
+ 
 
 }
->>>>>>> master
+
+#menu li {
+    display: inline;
+    padding: 35px;
+    align-items: flex-end;
+}
+
+#menu li:hover{
+    background-color: #ffcb05;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.recurso-border-radius{
+    border-radius: 45%;
+}
+
+.wh{
+    width: 400px;
+    height: 400px;
+}
+
+.center{
+    text-align: center;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-95{
+    margin-bottom: 95px;
+}
+footer{
+    background-color: #2a75bb;
+}
+
+.p-new{
+    padding: 1px;
+    color: white;
+}
+.p-new a  :hover{
+    background-color: #ffcb05;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
